@@ -59,14 +59,8 @@ public class Chatbot {
         config.load(input);
         properties.load(input);
 
-        //String clientID = "1j92nhxyxupyn8u06w8i3496p6se4n";
-        //String clientSecret = "qgc5cdq0zfcdsww0hfid6u9xs78qiy";
-        // broatcastID "133625281"
-        //String deintoken = "m9t3lk609bt3q9my1rr6j7pzaf8ze4";
-
         String clientID = null;
         String clientSecret = null;
-
 
        config.load(input);
 
@@ -307,7 +301,6 @@ public class Chatbot {
 
     public void ladenvonPropeties(String name) throws IOException {
         config.load(Reader.of(name));
-
     }
 
     public void speichernConfig() throws IOException {
